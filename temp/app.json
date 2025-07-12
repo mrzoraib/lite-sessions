@@ -1,0 +1,23 @@
+
+{
+    "name": "lite-sessions",
+    "description": "Web Session Generator",
+    "logo": "https://i.ibb.co/v6BwtM7s/shaban-md.jpgl",
+    "repository": "https://github.com/mrzoraib/lite-sessions",
+    "keywords": ["Zoraib-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
